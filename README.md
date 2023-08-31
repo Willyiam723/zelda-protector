@@ -1,4 +1,5 @@
 <h3> Main mechanics of the game </h3>
+
 - A tower defense game where players can build towers (i.e. protector characters that holds weapon) using mouse (left) clicks to defend Zelda along the way
 - A specific type of protector can be chosen by clicking on icon representing itself when a tile is selected in a level map
 - Protector information including name and costs will be rendered at the bottom right of the screen when option icon is hovered
@@ -14,7 +15,10 @@
 - There are infinite levels with a certain amount of monsters in a level, which gets more and harder after each level
 - Player can also accumulate budget when protectors built attacked flowers nearby
 
+    <img src='https://github.com/Willyiam723/Willyiam723/blob/master/config/liquidity-leverage-scenario-simulation-platform.gif' width = 50%>
+
 <h3> What’s contained in each file created </h3>
+
 - main.lua - layout state machine and main flow of the game, including specifying to start at startstate
 - Util.lua - include utility function for slicing images into quads
 - StateMachine.lua - statemachine abstract
@@ -45,6 +49,7 @@
 - ProtectorCrossbowIdleState.lua - abstract for rendering crossbow protector when it's not attacking
 
 <h3> Why made certain design decisions </h3>
+
 - Created LevelGenerator.lua as a separate class for randomly generating a table of tiles for a level so that it can be called each time a new level is initiated
 - Different types of protectors have their own idle and attacking states so that the two states can replace one another depends on whether an enemy is within the 
 attacking range of the protector
@@ -56,7 +61,8 @@ start the attack so that the hitbox can collide with the enemy to register a suc
 - The game is played by using mouse clicks as this allows players to build towers in a timely fashion as the enemies would get faster as the level continues
 
 <h3> Other additional information the staff should know about the project </h3>
-<h2> Instruction </h2>
+<h4> Instruction </h4>
+
 - Launch the game in Love2D
 - Follow the instruction in playing the game
 - The game is played using mouse clicks
