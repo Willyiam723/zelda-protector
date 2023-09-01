@@ -15,7 +15,7 @@
 - There are infinite levels with a certain amount of monsters in a level, which gets more and harder after each level
 - Player can also accumulate budget when protectors built attacked flowers nearby
 
-    <img src='https://github.com/Willyiam723/Willyiam723/blob/master/config/liquidity-leverage-scenario-simulation-platform.gif' width = 50%>
+    <img src='https://github.com/Willyiam723/Willyiam723/blob/master/config/Zelda-protector-game-play.gif' width = 50%>
 
 <h3> What’s contained in each file created </h3>
 
